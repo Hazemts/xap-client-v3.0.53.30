@@ -3,6 +3,9 @@
 #include <fstream>
 #include <iostream>
 #include "IniReader.h"
+#include "../imgui/imgui.h"
+#include "../imgui/imgui_impl_glfw.h"
+#include "../imgui/imgui_impl_opengl3.h"
 
 constexpr char ConfigFile[] = "config.ini";
 
@@ -43,10 +46,15 @@ namespace Config {
         bool DrawSeer = true;
         bool AimedAtOnly = false;
         float MaxDistance = 200;
-        float SeerMaxDistance = 200;
         bool ShowSpectators = true;
         bool DrawFOVCircle = true;
         float GameFOV = 120;
+        bool DrawBox = true;
+        bool Skeleton = true;
+        float ESPMaxDistance = 200;
+        bool ShowNear = true;
+        bool DrawNames = true;      
+        bool Team = true;
     };
 
     namespace Triggerbot {
@@ -76,14 +84,19 @@ void UpdateConfig() {
 
         WriteSection(Sense);
         WritePair(Sense, Enabled);
+        WritePair(Sense, Team);
         WritePair(Sense, ItemGlow);
         WritePair(Sense, DrawSeer);
         WritePair(Sense, AimedAtOnly);
         WritePair(Sense, MaxDistance);
-        WritePair(Sense, SeerMaxDistance);
         WritePair(Sense, ShowSpectators);
         WritePair(Sense, DrawFOVCircle);
         WritePair(Sense, GameFOV);
+        WritePair(Sense, DrawBox);
+        WritePair(Sense, Skeleton);
+        WritePair(Sense, ESPMaxDistance);
+        WritePair(Sense, ShowNear);
+        WritePair(Sense, DrawNames);
         WriteSectionEnd();
 
         WriteSection(Triggerbot);
@@ -113,14 +126,19 @@ bool ReadConfig(const std::string &configFile) {
     ReadFloat(Aimbot, ZoomDistance);
 
     ReadBool(Sense, Enabled);
+    ReadBool(Sense, Team);
     ReadBool(Sense, ItemGlow);
     ReadBool(Sense, DrawSeer);
     ReadBool(Sense, AimedAtOnly);
     ReadFloat(Sense, MaxDistance);
-    ReadFloat(Sense, SeerMaxDistance);
     ReadBool(Sense, ShowSpectators);
     ReadBool(Sense, DrawFOVCircle);
     ReadFloat(Sense, GameFOV);
+    ReadBool(Sense, DrawBox);
+    ReadBool(Sense, Skeleton);
+    ReadFloat(Sense, ESPMaxDistance);
+    ReadBool(Sense, ShowNear);
+    ReadBool(Sense, DrawNames);
 
     ReadBool(Triggerbot, Enabled);
     ReadFloat(Triggerbot, Range);
