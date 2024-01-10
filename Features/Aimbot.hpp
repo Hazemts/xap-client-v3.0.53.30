@@ -32,8 +32,8 @@ struct Aimbot {
 
     float FinalDistance = 0;
 
-    float Speed = 40;
-    float Smooth = 10;
+    float Speed = 20;
+    float Smooth = 5;
     float FOV = 10;
     float ZoomScale = 1.2;
     float MinDistance = 1;
