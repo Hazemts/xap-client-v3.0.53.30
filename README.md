@@ -59,7 +59,7 @@ unknowncheats: basic knowledge and offsets
 **3. Clone repo**
 
     git clone https://github.com/Gerosity/xap-client-v3.0.52.26.git
-    cd xap-client
+    cd xap-client-v3.0.52.26
 
 **4. Build and Run**
 
