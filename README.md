@@ -1,20 +1,21 @@
 # xap-client
-For v3.0.52.26 (Final Fantasy Update)
-By Gerosity
-# Triggerbot not working
-Changelog:
+For **v3.0.52.26 (Final Fantasy Update)**
+By **Gerosity**
+All credits to original owners
+**Triggerbot not working**
 
-    Updated Offsets
-    Team Gamemode (Toggle, Load Config after changing)
-    Draw Box
-    Draw Skeleton
-    Draw Names
-    Draw Near
-    Show Distance
-    ESP Max Distance
+# Changelog:
+
+    Updated Offsets - UC Forum
+    Team Gamemode (Toggle, Load Config after changing) - https://github.com/Pesci-Apu/Apu
+    Draw Box - https://www.unknowncheats.me/forum/3956658-post524.html
+    Draw Skeleton- https://www.unknowncheats.me/forum/3956658-post524.html
+    Draw Names - https://github.com/Pesci-Apu/Apu
+    Show Near - https://www.unknowncheats.me/forum/3956658-post524.html
+    ESP Max Distance - https://www.unknowncheats.me/forum/3956658-post524.html
     Load Config
 
-xap-client UC Link:
+xap-client UC Link: https://www.unknowncheats.me/forum/apex-legends/606842-xap-client-aimbot-esp-triggerbot.html
 This post link:
 
 # Original README.md
