@@ -1,4 +1,23 @@
 # xap-client
+For v3.0.52.26 (Final Fantasy Update)
+By Gerosity
+# Triggerbot not working
+Changelog:
+
+    Updated Offsets
+    Team Gamemode (Toggle, Load Config after changing)
+    Draw Box
+    Draw Skeleton
+    Draw Names
+    Draw Near
+    Show Distance
+    ESP Max Distance
+    Load Config
+
+xap-client UC Link:
+This post link:
+
+# Original README.md
 So yeah, this thing was made by me, I was very bored so I took T_Tape's Menu and grinder's features and put them together to create this monstrosity. The code is still very messy so if you want to improve it, go ahead.
 I'll will be very grateful if you do so.
 
@@ -39,7 +58,7 @@ unknowncheats: basic knowledge and offsets
 
 **3. Clone repo**
 
-    git clone https://github.com/Nexilist/xap-client.git
+    git clone https://github.com/Gerosity/xap-client-v3.0.52.26.git
     cd xap-client
 
 **4. Build and Run**
