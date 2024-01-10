@@ -21,7 +21,8 @@ struct Triggerbot {
     bool TriggerbotEnabled = true;
     float TriggerbotRange = 200;
 
-    std::set<int> WeaponList = { 1, 84, 95, 86, 102, 94, 104, 88, 110, 89, 112, 106, 108, 91 };
+    std::set<int> WeaponList = { 1, 83, 85, 96, 87, 103, 95, 89, 111, 90, 107, 109, 102, 2, 92, 163};
+       
 
     XDisplay* X11Display;
     LocalPlayer* Myself;
@@ -35,7 +36,7 @@ struct Triggerbot {
 
     void RenderUI() {
         if (ImGui::BeginTabItem("Triggerbot", nullptr, ImGuiTabItemFlags_NoCloseWithMiddleMouseButton | ImGuiTabItemFlags_NoReorder)) {
-            ImGui::Checkbox("Triggerbot", &TriggerbotEnabled);
+            ImGui::Checkbox("Triggerbot (Not Working)", &TriggerbotEnabled);
             if (ImGui::IsItemHovered(ImGuiHoveredFlags_AllowWhenDisabled))
                 ImGui::SetTooltip("Will automatically shoot the target\nWill only activate when your crosshair is at target whilst holding down Triggerbot key");
             ImGui::SliderFloat("Triggerbot Range", &TriggerbotRange, 0, 1000, "%.0f");
