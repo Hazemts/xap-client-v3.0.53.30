@@ -2,7 +2,7 @@
 For **v3.0.52.26 (Final Fantasy Update)**
 By **Gerosity**
 All credits to original owners
-**Triggerbot not working**
+**Triggerbot works?**
 
 # Changelog:
 
