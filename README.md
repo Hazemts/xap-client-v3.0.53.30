@@ -3,6 +3,8 @@
 # ToDo List:
     Rename project to something else (as not to confuse) (All credits to original devs) (e.g. xap-client-remastered) 
     Updated Offsets ✅
+    Multi-Monitor Support (? / ✅) 
+       - Doesnt work for me but others have said it works. Needs testing
     Aimbot:
        - Aim Keybind ✅
        - Aim Bone ✅
