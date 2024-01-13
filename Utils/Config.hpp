@@ -23,9 +23,9 @@ constexpr char ConfigFile[] = "config.ini";
 #define ReadInt(section, key) \
     Config::section::key = reader.GetInteger(#section, #key, Config::section::key);
 
-namespace Config {
-    namespace Aimbot {
-        bool Enabled = true;
+        namespace Misc {
+        	bool TeamGamemode = true;
+        };
         bool PredictMovement = true;
         bool PredictBulletDrop = true;
         bool RecoilControl = true;
