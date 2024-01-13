@@ -1,8 +1,8 @@
 # xap-client  [LINUX]
 **Update soon**
 # ToDo List:
-    Updated Offsets
-
+    Rename project to something else (as not to confuse) (All credits to original devs) (e.g. xap-client-remastered) 
+    Updated Offsets ✅
     Aimbot:
        - Aim Keybind ✅
        - Aim Bone ✅
