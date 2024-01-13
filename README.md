@@ -1,8 +1,43 @@
 # xap-client  [LINUX]
+**Update soon**
+# ToDo List:
+    Updated Offsets
+
+    Aimbot:
+       - Aim Keybind ✅
+       - Aim Bone ✅
+       - Visibility Check
+    Triggerbot:
+       - Always On
+       - Triggerbot Keybind ✅
+       - Crash fix
+    ESP/Sense:
+       - Filled Box ESP (?) 
+       - Box thickness slider ✅
+       - Tracer Screen Position (Top, Middle, Bottom) ✅
+       - Tracer Bone Position (Top (Head) , Bottom) ✅
+       - Tracer thickness slider
+       - Skeleton thickness slider ✅
+       - Show Teammates (Draw ESP on teammates, seperate color to enemies) ✅
+          - Draw Teammates Names (Can get in the way of ingame names) ✅
+       - Crosshair
+     Misc:
+       - Gamemode toggle (For switching between BR, Gun Run & Training - > TDM & Control) ✅
+       - Superglide (!)
+          - When enabled, breaks the cheat when holding down space. Let go and it fixes. Not good + needs fixing
+     Themes:
+       - Change Theme (Change menu theme (Style, Colors) 
+     Colors:
+       - Color Picker for everything (!) 
+          - (Tried before and failed, will try again eventually) 
+
+Will release as soon as I can :) 
+
+**Old README.md**
+
 For **v3.0.52.26 (Final Fantasy Update)**
 By **Gerosity**
 All credits to original owners
-**Triggerbot works?**
 
 # Changelog:
 
